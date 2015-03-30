@@ -1,0 +1,268 @@
+// New to Stylus? Check out http://learnboost.github.io/stylus
+// Use modern CSS thanks to Autoprefixer: https://github.com/ai/autoprefixer
+
+// Import CSS from "node_modules" and "bower_components"
+// thanks to Stylus' "import css" and "paths" options
+
+@import 'prism/themes/prism-okaidia.css'
+// Check out "bower_components/prism/themes/" for available themes
+
+stage-green = #25C5A1
+stage-blue = #283991
+stage-subblue = #657CC6
+stage-red = #F65869
+
+section.image
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat !imporant
+
+section.image--intro
+  background-image: url('../images/intro.png') !important
+  background-position: bottom !important
+
+section.image--introduce
+  background-image: url('../images/introduce_app.png') !important
+  background-repeat: no-repeat
+  background-position: bottom center
+  background-size: contain
+
+section.image--ipad
+  background-image: url('../images/iPad.png') !important
+  background-repeat: no-repeat
+  background-position: center right
+  background-size: contain
+
+section.image--macbook
+  background-image: url('../images/macbook-dashboard.png') !important
+  background-repeat: no-repeat
+  background-position: center left
+  background-size: contain
+
+section.stats
+  background-image: url('../images/template_facts_bg.png') !important
+  background-size: cover
+
+
+body
+  background-image: url('../images/template_bg.png')
+  background-position: center top
+  font-family: Roboto
+
+.bespoke-slide
+  background: transparent
+  width: 100%
+  margin-left: 0
+  margin-top: 0
+  top: 0
+  left: 0
+  color: #fff
+  height: 100%
+
+  &.green
+    background: stage-green
+
+  &.blue
+    background: stage-blue
+
+  &.red
+    background: stage-red
+
+  h1
+    font-weight: 400
+    font-size: 6em
+
+  h2
+    font-family: 'Cabin'
+    font-weight: 600
+    color: stage-blue
+    font-size: 2.5em
+    margin: 0
+
+  h3
+    font-family: 'Cabin'
+    font-weight: 500
+    color: #657CC6
+    font-size: 2.5em
+
+  h3.top-text
+    font-size: 1.75em
+    color: #fff
+    font-weight: 300
+
+  h1.intro
+    font-weight: 400
+    text-transform: uppercase
+    font-size: 8em
+    line-height: 130px
+
+  h1.wow
+    font-weight: 900
+    text-transform: uppercase
+    line-height: 1em
+
+  h1.left
+    text-align: left
+
+  h1.wtf
+    font-size: 8em
+
+  h1.standfort, h1.experiment
+    font-size: 8em
+
+  h1.done
+    font-size: 10em
+
+  h1.logo
+    padding: 50px
+
+  h1.twitter
+    padding: 20px 50px 50px 50px
+
+  h1
+    span
+      color: #273540
+
+  h2.health
+    font-size: 6em
+    text-transform: uppercase
+
+  img.svg
+    width: 7%
+    height: 7%
+    padding: 5px
+
+  .example
+    padding-top: 1%
+    padding-left: 2%
+    padding-right: 2%
+
+  .twitter-example
+    width: 75%
+    // height: 75%
+
+  ul
+    list-style: none
+    font-size: 2em
+    padding-top: 20px
+
+    li:first-child
+      list-style: none
+
+    li
+      text-align: left
+
+      img.svg
+        display: inline-block
+
+      img.svg.bolt
+        height: 44px
+        vertical-align: -7px
+
+      img.svg.code
+        vertical-align: -4px
+
+      img.svg.presentation
+        vertical-align: -6px
+
+      img.svg.system
+        vertical-align: -5px
+
+      p
+        margin: 20px
+        display: inline-block
+
+section.apples
+  ul
+    padding-top: 150px
+
+    li
+      text-align: center
+      margin: -100px
+
+.nr8
+  position: fixed
+  left: 48%
+  top: 20%
+
+.nr4
+  position: fixed
+  left: 50%
+  top: 20%
+  transform: translate(-42%, 0%)
+
+section.intro
+  .wrapper
+    min-height: 150px
+
+    .photo, .text
+      display: inline-block
+
+    .photo
+      width: 250px
+      min-height: 150px
+      border-right: 2px solid #fff
+
+    .text
+      width: 500px
+      text-align: left
+      vertical-align: top
+      padding: 17px 30px
+
+      h4
+        font-size: 3em
+        letter-spacing: 0em
+        font-weight: 400
+
+      h5
+        font-size: 2.5em
+        font-weight: 300
+
+        a
+          color: #fff
+
+        a:hover
+          color: #273540
+
+section.warning
+  ul
+    li
+      text-align: center
+      margin: -130px
+
+      img.cross
+        width: 70%
+
+section.example-image
+  text-align: left
+
+  .left
+    position: absolute
+    top: 30%
+    right: 57%
+    text-align: right
+
+  .right
+    position: absolute
+    top: 30%
+    left: 58%
+    text-align: left
+
+section.stats
+  font-family: 'Lato'
+  color: #fff
+
+  .title
+    text-transform: uppercase
+    font-weight: 200
+    font-size: 2em
+
+  .stat
+    font-size: 5em
+    font-weight: 600
+
+.bespoke-progress-bar
+  background: rgba(255, 255, 255, 0.5)
+  height: 10px

@@ -1,0 +1,7 @@
+{
+  "name": "stage-presentatie",
+  "version": "0.0.0",
+  "dependencies": {
+    "prism": "gh-pages"
+  }
+}
