@@ -3,7 +3,7 @@
 
 ## View slides online
 
-You can find the slides online via [Github Pages](http://inooid.github.io/stage-presentatie)
+You can find the slides online via [Github Pages](http://inooid.github.io/vooruit-met-presentation)
 
 ## View slides locally
 
