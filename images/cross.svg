@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="961px" height="211px" viewBox="0 0 961 211" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Line + Line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="4.-Makkelijk-toch?" sketch:type="MSArtboardGroup" transform="translate(-242.000000, -363.000000)" stroke="#FC2424" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+            <g id="Line-+-Line" sketch:type="MSLayerGroup" transform="translate(247.000000, 368.000000)">
+                <path d="M10.5,0.5 L950.5,200.5" id="Line" sketch:type="MSShapeGroup"></path>
+                <path d="M0,201 L940,1" id="Line" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
